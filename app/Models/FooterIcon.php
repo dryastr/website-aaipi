@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class FooterIcon extends Model
+{
+    use HasFactory;
+
+    protected $table = 'icon_footer';
+
+    protected $fillable = ['title', 'link', 'sosmed_icon'];
+}
